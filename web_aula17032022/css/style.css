@@ -1,0 +1,35 @@
+/*este é meu estilo, CSS*/
+
+/*CORPINHO*/
+body{
+    font-family: arial; /*fonte*/
+    color: rgb(158, 142, 111);
+}
+
+/*TEXTOS*/
+h1{ /*/tudo que ta na h1*/ 
+    font-size: 40px; /*tamanho*/
+    background-color: rgb(175, 156, 130); /*caixa dentro do h1*/
+    padding: 30px; /*margem interna*/
+    margin: 30px;/*margem*/
+    text-align: center;/*alinha o texto*/
+    color: rgb(14, 14, 78);
+    width:500px ;/*largura*/
+}
+
+/*posso chamar 'P', ao inves de:
+p{} eu faço como em baixo
+mas como que eu quero que eles fiquem diferentes eu crio uma class para diferenciar eles
+chamando o nome da .class (ponto mais classe)
+
+*/
+.destaque{
+    font-size: 30px;
+    font-weight: 300; /*deixa fodao/ tipo um negrito*/
+}
+
+.pequeno{
+    font-size: 10px;
+    font-weight: 300; /*deixa fodao/ tipo um negrito*/
+}
+

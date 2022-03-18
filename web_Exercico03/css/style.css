@@ -1,0 +1,49 @@
+/*este é meu estilo, CSS*/
+
+/*CORPINHO*/
+body{
+    font-family: OpenSans-Bold; /*fonte*/
+    background-color: rgb(250, 248, 218); ; /*fundo*/
+    text-align: center;/*alinha o texto*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    stroke-width: 0.2775;
+}
+
+/*TEXTOS*/
+h1{ /*/tudo que ta na h1*/ 
+    font-size: 30px; /*tamanho*/
+    padding: 10px; /*margem interna*/
+    margin: 10px;/*margem*/
+    color: rgb(32, 93, 118);
+    font-weight: 100;
+}
+img{
+    width: 500px;
+}
+
+.cirulo{
+  width: 120px;
+}
+
+.letra{
+    font-size: 10px; 
+    color:  rgb(234, 110, 47);
+    text-decoration: underline;
+    font-family: OpenSans;
+    transform: matrix(450.951, 205.859);
+}
+h2{
+    font-size: 20px;
+    color: rgb(32, 93, 118);
+    font-weight: 100;
+}
+footer{
+    color: rgb(250, 250, 250);
+    background-color: rgb(255, 193, 34) ; /*fundo*/
+    font-size: 20px; /*tamanho*/
+    text-align: center;/*alinha o texto*/
+    width:100% ;/*largura*/
+    margin-top: 50px;/*margem*/
+}
