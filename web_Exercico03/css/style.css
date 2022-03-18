@@ -18,6 +18,7 @@ h1{ /*/tudo que ta na h1*/
     margin: 10px;/*margem*/
     color: rgb(32, 93, 118);
     font-weight: 100;
+    
 }
 img{
     width: 500px;
@@ -33,6 +34,8 @@ img{
     text-decoration: underline;
     font-family: OpenSans;
     transform: matrix(450.951, 205.859);
+    text-align: left;
+    
 }
 h2{
     font-size: 20px;
