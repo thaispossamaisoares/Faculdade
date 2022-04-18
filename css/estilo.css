@@ -1,55 +1,131 @@
+/* ccriacao de uma letra que nao existe no google (fonts)*/
+@font-face {
+    font-family: Pacifico;
+    src: url('fonts/Pacifico.ttf');
+    font-family: Indie Flower;
+    src: url('fonts/IndieFlower-Regular.ttf');
+   
+}
 body{
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-    color: #444;
-    font-size: 62.5%;
+    font-family: 'Indie Flower', cursive;
+    
+    line-height: 1.5;/*espaço entre as linhas da letra*/
+    color: rgb(5, 16, 20);
+    font-size: 100%;/*fonte das letras*/
+  
 }
 *,*::after,*::before{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-.container{
-    max-width: 1000px;
-    margin: 0 auto;
     
 }
-.ThaisPerfil{
-    background: url("../img/ThaisPerfil.jpg");
-    height: 450px;
-    width: 450px;
-    position: relative;
-    margin: 0 auto;
+.container{
+    max-width:1200px;
+    margin: 0 auto; /*centraliza meu container*/
+    border:10px solid rgb(176, 198, 207);
+    background: url("../img/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px; 
+    text-align:justify; /*deixar justfy pois tem coisas que ficaram para direita, outras meio assim por diante*/
+    padding: 20px;/*informação para o lado 'borda' */
 }
-.cabecalho{
-    margin: 0 auto;
+
+.cabecalho p{
+    width: 500px;
+    float: right;
+    position: absolute;
+    top: 250px; /*desce a letra*/
+    margin-left: 900px; /*mexe pro lado*/
+    width: 110px;/*deixa cumprido*/
+    text-align: center; /*letras para direita*/
+}
+.cabecalho h1{
+    font-size: 2.0em;
+    color: rgb(3, 28, 37);
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 300%;/*fonte das letras*/
+}
+h2{
+
+    font-size: 200%;/*fonte das letras*/
+    float: center;
+    text-align: center; /*centraliza apenas o h2, pois se eu colocar no container vai alterar coisas que nao quero*/
+    
 }
 img, video, figure, embed{
     max-width: 100%;
 }
-.caixa{
-    position: absolute;
-    top: 48px;
-    background-color: rgba(62, 1, 68, 0.6);
-    width: 42.55%;
-    padding: 2.4em 1.4em 2.4em 4em;
-}
-.cabecalho h1{
-    font-size: 2.0em;
-    color: rgb(255, 208, 0);
-    margin-bottom: 0;
-    margin-top: 0;
-    margin: 0 auto;
-}
 .ThaisPerfil h1{
-    font-size: 1.0em;
+    font-size: 25px; /*fonte tam*/
     color: #fff;
 }
-.caixa p{
-    font-size: 1.0em;
-    color: #fff;
-}
-p{
-    float: right;
+.ThaisPerfil{
+    background: url("../img/Perfil.jpg");
+    height: 600px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 48px;
+    padding: 10px; 
+    text-align:justify;
 }
 
+.caixa{
+    background-color: rgba(13, 37, 46, 0.6);
+    position: absolute;
+    top: 400px;
+    margin-left: 300px;
+    width: 180px; 
+    padding: 50px ; /*margem ao redor de dentro*/
+    text-align:center; /*centraliza as letras*/
+ 
+}
+.caixa p{
+    font-size: 20px; /*fonte tam*/
+    color: #fff;
+}
+.informacao{
+    margin-top: 90px; /*posicao para baixo margem do topo*/
+    margin-bottom: 50px;/*posicao para baixo margem baixo*/
+    text-align:justify; 
+}
+
+.botao {
+    margin-top: 20px;
+    min-width: 100px;/*ajusta os botao*/
+    display: inline-block;
+}
+.botao {
+    border-radius: 5px; /*deixa a borda redondinha*/
+    color: rgb(0, 0, 0);
+    padding: 2px 3px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    cursor: pointer;
+
+}
+/*faz a gracinha de mudar de cor*/
+.botao:hover {
+    background-color: #60a2b3
+}
+
+.botao:active {
+    background-color: #c5bd47;
+    transform: translateY(4px);
+}
+a{
+    background-color: black;
+    border-radius: 5px; /*deixa a borda redondinha*/
+}
+input{
+    border-radius: 6px; /*deixa a borda redondinha*/
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
