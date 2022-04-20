@@ -9,7 +9,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Indie Flower', cursive;
-    
+    background: url("../img/fundobory.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     line-height: 1.5;/*espaço entre as linhas da letra*/
     color: rgb(5, 16, 20);
     font-size: 100%;/*fonte das letras*/
