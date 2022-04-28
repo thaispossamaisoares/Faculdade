@@ -13,7 +13,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 1.5;/*espaço entre as linhas da letra*/
-    color: rgb(5, 16, 20);
+    color: white;
     font-size: 100%;/*fonte das letras*/
   
 }
@@ -26,27 +26,28 @@ body{
 .container{
     max-width:1200px;
     margin: 0 auto; /*centraliza meu container*/
-    border:10px solid rgb(176, 198, 207);
-    background: url("../img/fundo.jpg");
+    background-color: rgb(184, 7, 131);
+   /* background: url("../img/fundo.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px; 
     text-align:justify; /*deixar justfy pois tem coisas que ficaram para direita, outras meio assim por diante*/
-    padding: 20px;/*informação para o lado 'borda' */
+    padding: 50px;/*informação para o lado 'borda' */
 }
 
 .cabecalho p{
     width: 500px;
     float: right;
     position: absolute;
-    top: 250px; /*desce a letra*/
-    margin-left: 900px; /*mexe pro lado*/
-    width: 110px;/*deixa cumprido*/
+    top: 300px; /*desce a letra*/
+    margin-left: 700px; /*mexe pro lado*/
+    width: 350px;/*deixa cumprido*/
     text-align: center; /*letras para direita*/
+    font-size: 20px;
 }
 .cabecalho h1{
     font-size: 2.0em;
-    color: rgb(3, 28, 37);
+    color: white;
     margin-bottom: 0;
     text-align: center;
     font-size: 300%;/*fonte das letras*/
@@ -66,7 +67,8 @@ img, video, figure, embed{
     color: #fff;
 }
 .ThaisPerfil{
-    background: url("../img/Perfil.jpg");
+    background: url("../img/thaissemfundo.jpg");
+    border:20px solid rgb(226, 196, 224);
     height: 600px;
     width: 400px;
     background-size: cover;
@@ -75,10 +77,11 @@ img, video, figure, embed{
     margin-top: 48px;
     padding: 10px; 
     text-align:justify;
+    margin-left: 50px; /*mexe pro lado*/
 }
 
 .caixa{
-    background-color: rgba(13, 37, 46, 0.6);
+    background-color: rgba(63, 9, 80, 0.6);
     position: absolute;
     top: 400px;
     margin-left: 300px;
@@ -91,11 +94,15 @@ img, video, figure, embed{
     font-size: 20px; /*fonte tam*/
     color: #fff;
 }
+
 .informacao{
-    margin-top: 90px; /*posicao para baixo margem do topo*/
-    margin-bottom: 50px;/*posicao para baixo margem baixo*/
+    margin-top: 100px; /*posicao para baixo margem do topo*/
+    margin-bottom: 60px;/*posicao para baixo margem baixo*/
     text-align:justify; 
+    margin-left: 50px; /*mexe pro lado*/
+    font-size: 20px;
 }
+
 
 .botao {
     margin-top: 20px;
@@ -115,19 +122,20 @@ img, video, figure, embed{
 }
 /*faz a gracinha de mudar de cor*/
 .botao:hover {
-    background-color: #60a2b3
+    background-color: #8cc4d3
 }
 
 .botao:active {
-    background-color: #c5bd47;
+    background-color: #e7a6d3;
     transform: translateY(4px);
 }
 a{
-    background-color: black;
+    background-color: rgb(41, 17, 17);
     border-radius: 5px; /*deixa a borda redondinha*/
 }
 input{
     border-radius: 6px; /*deixa a borda redondinha*/
     text-decoration:none;
-    color: rgb(0, 0, 0);
+    color: rgb(7, 7, 7);
+    background-color: #e7a6d3;
 }
