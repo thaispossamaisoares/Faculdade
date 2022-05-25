@@ -1,4 +1,10 @@
 
+
 :root {
     --black: #000000;
   }
+.front{
+  filter: grayscale(.75) blur(2px);
+  
+  
+}
