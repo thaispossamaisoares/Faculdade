@@ -1,10 +1,13 @@
-
-
-:root {
-    --black: #000000;
-  }
 .front{
-  filter: grayscale(.75) blur(2px);
+  filter: grayscale(.90) blur(4px);
   
-  
+}
+.mkasaimsia{
+  background-color: #2e2e31e5;
+}
+.jumbotron{
+  background-color: #2e2e31e5;
+}
+.carousel-caption{
+  text-shadow: 0.5em 0.5em 0.2em black
 }
