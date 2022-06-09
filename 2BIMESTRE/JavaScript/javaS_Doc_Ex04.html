@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="MeuJavaScript.js">  </script>
+    <title>Aula05 JavaScript Casting</title>
+    // consultar mais coisas
+    /// https://www.w3schools.com/js/  </br></br>
+
+    <script>
+        //somou pois sao int 
+        var variavel01 = 5
+        var variavel02 = 7
+        
+        document.write (variavel01 + variavel02)
+
+    </script>
+
+    </br>
+
+    <script>
+        // concatenou a variavel,nao soumou pois é uma String
+        var variavel01 = prompt('Digite um numero:')
+        var variavel02 = prompt('Digite outro numero:')
+        
+        document.write (variavel01 + variavel02)
+
+    </script> 
+
+    </br>
+
+    <script>
+        // conversao de number casting int
+        var variavel01 = prompt('Digite um numero:')
+        var variavel02 = prompt('Digite outro numero:')
+        
+        //converte aqui
+        variavel01 = parseInt(variavel01)
+        variavel02 = parseInt(variavel02)
+        
+        document.write (variavel01 + variavel02)
+
+    </script> 
+
+    </br>
+
+    <script>
+         // conversao de number casting float
+        var variavel01 = prompt('Digite um numero:')
+        var variavel02 = prompt('Digite outro numero:')
+        
+        //converte aqui (com numeros com pontos, ex: 2.0)
+        variavel01 = parseFloat(variavel01)
+        variavel02 = parseFloat(variavel02)
+        
+        document.write (variavel01 + variavel02)
+
+    </script> 
+
+
+    </br>
+
+    <script>
+        // conversao de number casting string
+        var variavel01 = 10
+        var variavel02 = 15
+        
+        document.write (variavel01.toString() + variavel02.toString())
+
+    </script> 
+
+
+</head>
+<body>
+
+</body>
+</html>
