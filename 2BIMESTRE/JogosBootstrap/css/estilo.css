@@ -1,0 +1,16 @@
+.vignette{
+  box-shadow: 0 0 200px rgba(3, 3, 3, 0.938) inset;
+  opacity: 0.5;
+  
+}
+
+.card{
+  filter: grayscale(.10) blur(0.5px);
+  background-color: #2e2e31e1;
+  text-shadow: 0.5em 0.5em 0.2em black;
+}
+.img-200-200{
+  width: 190px;
+}
+
+
